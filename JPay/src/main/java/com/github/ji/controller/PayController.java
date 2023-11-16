@@ -38,6 +38,8 @@ public class PayController {
     @ApiOperation("订单支付")
     @PostMapping("/orderPay")
     public CommonResult<PayVO> orderPay(@Validated @RequestBody OrderPayDTO orderDTO) {
+//todo 订单支付前需要验证订单的一些业务
+//        调用支付方法，统一使用PayContext，这样业务要求切换不同的支付。只需要切换对应的PayCode即可。
         final PayService payService = payContext.getPayService(orderDTO.getPayCode());
         Order order = new Order();
         final PayDTO payDTO = PayDTO.builder()

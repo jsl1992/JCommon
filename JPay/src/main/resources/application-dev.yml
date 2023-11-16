@@ -1,3 +1,5 @@
 wxpay:
+#  公众号ID
   appid: 1233
+#  支付通知地址（支付成功和退款成功通知地址）
   domainUrl: localhost
