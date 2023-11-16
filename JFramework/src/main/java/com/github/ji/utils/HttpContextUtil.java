@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-package com.github.ji.framework.utils;
+package com.github.ji.utils;
 
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;

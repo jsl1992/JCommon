@@ -1,6 +1,6 @@
 package com.github.ji.jpay.controller;
 
-import com.github.ji.framework.core.CommonResult;
+import com.github.ji.core.CommonResult;
 import com.github.ji.jpay.PayContext;
 import com.github.ji.jpay.dto.OrderPayDTO;
 import com.github.ji.jpay.dto.PayDTO;

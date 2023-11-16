@@ -1,6 +1,6 @@
 package com.github.ji.jpay.controller;
 
-import com.github.ji.framework.utils.HttpContextUtil;
+import com.github.ji.utils.HttpContextUtil;
 import com.github.ji.jpay.config.MerchantMatchWeChatConfig;
 import com.github.ji.jpay.response.WeChatPayV3NotifyResponse;
 import com.wechat.pay.java.core.RSAAutoCertificateConfig;

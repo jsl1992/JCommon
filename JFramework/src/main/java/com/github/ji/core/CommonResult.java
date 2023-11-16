@@ -1,4 +1,4 @@
-package com.github.ji.framework.core;
+package com.github.ji.core;
 
 
 import java.io.Serializable;
