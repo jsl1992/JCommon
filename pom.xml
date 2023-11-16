@@ -32,6 +32,7 @@
     <modules>
         <module>JPay</module>
         <module>JFramework</module>
+        <module>JBusiness</module>
     </modules>
 
 
