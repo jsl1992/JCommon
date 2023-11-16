@@ -1,0 +1,14 @@
+server:
+  port: 9280
+
+spring:
+  application:
+    name: JPay
+  profiles:
+    active: dev
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+
+
