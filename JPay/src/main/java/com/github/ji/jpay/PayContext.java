@@ -1,6 +1,7 @@
 package com.github.ji.jpay;
 
 
+import com.github.ji.exception.ServiceException;
 import com.github.ji.jpay.service.PayService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
@@ -35,7 +36,7 @@ public class PayContext {
 
     public PayService getPayService(Integer code) {
         if (!payServiceMap.containsKey(code)) {
-            throw new RuntimeException("没有该支付方式");
+            throw new ServiceException("没有该支付方式");
         }
         return payServiceMap.get(code);
     }

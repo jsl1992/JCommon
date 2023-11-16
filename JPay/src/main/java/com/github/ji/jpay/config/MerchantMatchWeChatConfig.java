@@ -1,6 +1,7 @@
 package com.github.ji.jpay.config;
 
 
+import com.github.ji.exception.ServiceException;
 import com.github.ji.jpay.vo.MerchantMatchVO;
 import com.github.ji.jpay.service.IMerchantMatchService;
 import com.wechat.pay.java.core.RSAAutoCertificateConfig;
@@ -35,7 +36,7 @@ public class MerchantMatchWeChatConfig {
      **/
     public RSAAutoCertificateConfig getCertificateConfig(MerchantMatchVO merchantMatchVO) {
         if (Objects.isNull(merchantMatchVO)) {
-            throw new RuntimeException("商户还未配置支付账号，请联系超管处理");
+            throw new ServiceException("商户还未配置支付账号，请联系超管处理");
         }
 //        多个模式
         if (!CONFIG_MAP.containsKey(merchantMatchVO.getMchId())) {
