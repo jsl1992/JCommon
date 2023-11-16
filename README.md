@@ -1,6 +1,6 @@
-# 项目名称：JCommon-Integration-Kit
+# 项目名称：JCommon
 # 简介：
-JCommon Integration Kit 是一个集成了常用支付、短信等功能的 Java 工具包，致力于提供简单易用的接口封装，使开发者能够轻松在生产项目中使用。相比市面上其他支付相关的开源项目，JCommon Integration Kit 的特色在于对支付接口的统一封装，以及对可扩展性的考虑，使得开发者可以更便捷地集成和扩展不同支付和短信服务。
+JCommon是一个集成了常用支付、短信等功能的 Java 工具包，致力于提供简单易用的接口封装，使开发者能够轻松在生产项目中使用。相比市面上其他支付相关的开源项目，JCommon Integration Kit 的特色在于对支付接口的统一封装，以及对可扩展性的考虑，使得开发者可以更便捷地集成和扩展不同支付和短信服务。
 
 # 主要特性：
 
@@ -38,10 +38,10 @@ JCommon Integration Kit 是一个集成了常用支付、短信等功能的 Java
 欢迎开发者贡献代码，提出建议和反馈问题，共同完善这个项目。
 
 # 许可证：
-MIT License
+Apache License 2.0
 
 # 注意事项：
 在使用该工具包前，请仔细阅读文档，了解各个支付方式的配置和使用方式。如果在使用过程中遇到问题，请查看文档或提交 issue 寻求帮助。
 
 # 项目链接：
-[JCommon](https://github.com/jsl1992/JCommon)https://github.com/jsl1992/JCommon
+[JCommon](https://github.com/jsl1992/JCommon)
